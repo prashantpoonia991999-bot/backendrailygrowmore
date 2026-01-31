@@ -6,3 +6,4 @@ google-generativeai
 dnspython
 pymongo==4.8.0
 motor==3.3.2
+bcrypt
