@@ -5,4 +5,4 @@ requests
 google-generativeai
 dnspython
 pymongo
-motor
+motor==3.3.2
