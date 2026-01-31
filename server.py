@@ -1557,11 +1557,6 @@ async def startup_event():
             "is_blocked": False
         })
         logger.info("Default referrer created with code: ADMIN001")
-
-@app.on_event("shutdown")
-async def shutdown_db_client():
-    client.close()
-
 # Download Database Export
 @api_router.get("/download-database")
 async def download_database():
