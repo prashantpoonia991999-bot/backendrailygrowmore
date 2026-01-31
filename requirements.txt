@@ -4,5 +4,5 @@ python-dotenv
 requests
 google-generativeai
 dnspython
-pymongo
-motor==3.3.2
+pymongo==4.6.1
+motor==2.5.1
