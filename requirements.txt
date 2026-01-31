@@ -3,5 +3,3 @@ uvicorn
 python-dotenv
 requests
 google-generativeai
-pydantic
-typing-extensions
